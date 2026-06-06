@@ -9,7 +9,6 @@
     "dev": "nodemon src/server.js"
   },
   "dependencies": {
-    "@prisma/client": "^5.14.0",
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
@@ -24,8 +23,9 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@prisma/client": "^6.19.3",
     "nodemon": "^3.1.2",
-    "prisma": "^5.14.0"
+    "prisma": "^6.19.3"
   },
   "prisma": {
     "seed": "node prisma/seed.js"
