@@ -118,7 +118,7 @@ PostgreSQL can be installed manually, but the recommended setup is using Docker 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/mdsykr8894/quickcart.git
+git clone https://github.com/F4kez/quickcart_orange.git
 cd quickcart
 ```
 
@@ -210,6 +210,8 @@ Seed the database:
 ```bash
 npx prisma db seed
 ```
+
+If cant run the prisma, downgrade the version and Run Prisma migrations again
 
 If the seed command is not configured, run:
 
@@ -403,4 +405,4 @@ QuickCart includes common ecommerce application protections such as password has
 
 ## Author
 
-Developed by Muhammad Syakir.
+Developed by Ahmad Zaim.
